@@ -1,0 +1,131 @@
+﻿body{
+	margin:0;
+}
+#info{
+	width:100%;
+	height:50px;
+	position:fixed;
+	background-color:red;
+	text-align:center;
+	line-height:50px;
+	color:white;
+	font-weight:bold;
+}
+#voteinfo{
+	top:50px;
+	width:100%;
+	height:30px;
+	position:fixed;
+	background-color:red;
+	line-height:30px;
+	color:white;
+	font-weight:bold;
+}
+#rule{
+	float:left;
+	margin-left:20px;
+}
+#time{
+	float:right;
+	margin-right:20px;
+}
+#list{
+	padding-top:80px;
+	padding-bottom:50px;
+}
+.listnode{
+	width:100%;
+	text-align:center;
+	height:60px;
+	border-bottom:1px gray solid;
+}
+.listnode input{
+	float:right;
+	margin:23px 30px 23px 0;
+}
+.photo{
+	height:55px;
+	width:40px;
+	margin:2px 20px 3px 20px;
+	float:left;
+}
+.name{
+	text-align:left;
+	height:30px;
+	line-height:30px;
+	font-size:15px;
+	font-weight:bold;
+}
+.school{
+	text-align:left;
+	height:30px;
+	line-height:30px;
+	font-size:13px;
+	color:gray;
+}
+#tail{
+	width:100%;
+	height:50px;
+	position:fixed;
+	background-color:red;
+	bottom:0;
+	text-align:center;
+	line-height:50px;
+	font-weight:bold;
+	color:white;
+}
+#tail button{
+	margin-right:20px;
+	width:60px;
+	height:25px;
+	border-radius:6px;
+	background-color:red;
+	border-color:red;
+	font-weight:bold;
+	color:white;
+}
+#loginbackground{
+	position:fixed;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0, 0, 0, 0.1)
+}
+#login{
+	width:300px;
+	height:173px;
+	margin:100px auto;
+	border:1px solid gray;
+	border-radius:10px;
+	background-color:white;
+}
+#loginfo{
+	width:290px;
+	height:40px;
+	line-height:40px;
+	padding-left:10px;
+	font-weight:bold;
+	border:2px gray;
+	margin-bottom:10px;
+	border-bottom:1px solid gray;
+}
+.fn{
+	width:222px;
+	height:26px;
+	margin:0 auto 15px auto;
+	line-height:26px;
+}
+.inp{
+	float:right;
+	width:143px;
+}
+#bt{
+	margin-top:20px;
+	height:30px;
+	text-align:center;
+}
+#bt button{
+	margin:0 10px;
+	width:60px;
+	height:25px;
+}
